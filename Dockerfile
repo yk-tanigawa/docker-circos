@@ -13,7 +13,7 @@ RUN cpanm --no-wget --notest List::MoreUtils Math::Bezier Math::Round Math::VecS
     Params::Validate Readonly Regexp::Common SVG Set::IntSpan Statistics::Basic \
     Text::Format Clone Config::General Font::TTF::Font GD
 
-ENV CIRCOS_VERSION 0.69-2
+ENV CIRCOS_VERSION 0.69-9
 
 RUN mkdir /opt && cd /opt && \
     wget  http://circos.ca/distribution/circos-${CIRCOS_VERSION}.tgz && \
